@@ -2,6 +2,7 @@ package com.cjh.practice.leetcode;
 
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.Locale;
 import java.util.Map;
 
 public class LC881 {
@@ -22,6 +23,11 @@ public class LC881 {
                 res++;
                 r--;
             }
+            boolean a = false;
+            if (Math.random()>1){
+                a = a;
+            }
+
             return res;
         }
     }
